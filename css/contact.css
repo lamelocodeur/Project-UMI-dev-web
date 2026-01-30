@@ -1,0 +1,112 @@
+body {
+    background: radial-gradient(circle at top, #0f172a, #020617);
+    color: #ffffff;
+    font-family: 'Segoe UI', system-ui, sans-serif;
+}
+
+/* NAVBAR */
+.navbar {
+    background: rgba(2, 6, 23, 0.9);
+    backdrop-filter: blur(12px);
+}
+
+/* HERO */
+.hero {
+    text-align: center;
+    padding: 140px 20px 60px;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    color: #cbd5f5;
+    margin-top: 12px;
+}
+
+/* FORM SECTION */
+.contact-form {
+    background: linear-gradient(160deg, #020617, #020617);
+    padding: 40px;
+    border-radius: 26px;
+    box-shadow: 0 10px 30px rgba(59,130,246,0.3);
+    max-width: 600px;
+    margin: auto;
+}
+
+.contact-form label {
+    font-weight: 500;
+}
+
+.contact-form input,
+.contact-form textarea {
+    background: rgba(255,255,255,0.05);
+    border: 1px solid rgba(255,255,255,0.2);
+    color: #ffffff;
+    border-radius: 12px;
+    padding: 12px;
+    width: 100%;
+    margin-bottom: 20px;
+    transition: all 0.3s ease;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+    outline: none;
+    border-color: #3b82f6;
+    box-shadow: 0 0 12px rgba(59,130,246,0.5);
+    background: rgba(255,255,255,0.1);
+}
+
+.contact-form textarea {
+    resize: none;
+    min-height: 150px;
+}
+
+.contact-form button {
+    background: #3b82f6;
+    border: none;
+    padding: 12px 28px;
+    border-radius: 50px;
+    font-weight: 600;
+    color: #fff;
+    transition: all 0.3s ease;
+}
+
+.contact-form button:hover {
+    background: #60a5fa;
+    transform: scale(1.05);
+}
+
+/* FOOTER PAGE */
+footer {
+    background: rgba(2, 6, 23, 0.9);
+    backdrop-filter: blur(12px);
+    text-align: center;
+    padding: 20px 0;
+    color: #ffffff80;
+}
+/* Style icône utilisateur dans la navbar */
+.navbar .user-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    border: 2px solid #00bfff;
+    color: #00bfff;
+    font-size: 1.8rem;
+    gap: 10px;
+    transition: all 0.3s ease;
+}
+
+.navbar .user-icon:hover {
+    transform: scale(1.2);
+    background-color: #00bfff;
+    color: #fff;
+    border-color: #00bfff;
+}
